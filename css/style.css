@@ -1,0 +1,130 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+section {
+    
+
+}
+h1 {
+    font-size: 50px;;
+}
+h3 {
+    font-size: 40px;
+}
+.header {
+    background-image: url("../images/header-bg.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 800px;
+    padding-bottom: 150px;
+    
+}
+.half-width {
+    width: 35%;
+    margin-left: 6%;
+    padding-left: 3%;
+    float: left;
+}
+
+.half-width img {
+    width: 100%;
+}
+.half-width p {
+    margin-bottom: 30px;
+}
+
+.pink-highlight {
+    color: #EC4C7a;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #EC4C7a;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.biography {
+    background-image: url("../images/biography-bg.png");
+    height: 826px;
+    padding: 50px 50px 0; 
+}
+
+.biography h3 {
+    margin-top: 200px;
+}
+.latest-work {
+    text-align: center;
+    height: 100%;
+    background-image: url("../images/latest-work-bg.png");
+    background-position: center center;
+    padding-bottom: 150px;
+
+}
+.latest-work h3 {
+    padding: 66px 0px;
+    margin: 0;
+}
+.work {
+    width: 25%;
+    display: inline-block;
+    padding-right: 20px;
+    
+}
+.work img {
+    width: 100%;    
+}
+
+.client-commments {
+    text-align: center;
+    background-image: url("../images/footer-bg.png");
+    padding: 180px 0;
+    background-position: center;
+    background-size: cover;
+}
+.client-commments h3 {
+    /* margin: 0; */
+    position: relative;
+    top: -216px;
+}
+.client-commments h4 {
+    position: relative;
+    top: -196px;
+    font-size:23px ;
+}
+.client-commments h5 {
+    position: relative;
+    top: -150px;
+    font-size: 18px;
+}
+blockquote {
+    position: relative;
+    top: -150px;
+}
+
+.contact {
+    width: 35%;
+    padding: 20px 0;
+    background-image: linear-gradient(45deg, rgb(211, 84, 154),rgba(223, 24, 74, 0.733));
+    border-radius: 20px;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+.contact p:last-child {
+    font-size: 25px;
+    /* margin: 0; */
+}
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
